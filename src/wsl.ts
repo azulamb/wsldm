@@ -80,7 +80,7 @@ export class WSL {
 		const path = await this.createDirectory();
 		const file = `${path}\\${name}.tar`;
 
-		const cmd = [this.wsl, '--export', distribution, file];
+		const cmd = ['powershell', this.wsl, '--export', distribution, file];
 
 		const process = Deno.run({
 			cmd: cmd,

@@ -51,3 +51,7 @@ deno task build
 ## Other
 
 このCLIはDenoのcompile機能を使ってexeファイルを作っています。
+
+また実装周りの話は以下に書かれています。
+
+https://zenn.dev/azulitenet/articles/creating_cli_in_deno
